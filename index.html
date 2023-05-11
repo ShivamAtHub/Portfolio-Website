@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header class="header">
+      <a href="#" class="logo">Sam.</a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <!-- NavBar End -->
+
+    <!-- Home Section Starts here -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, I'm Sam Williams</h1>
+        <h3>Frontend Developer</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ut quia laborum inventore quae numquam ratione magni cum ad aut autem exercitationem, a doloribus saepe ullam deleniti!</p>
+        <div class="btn-box">
+          <a href="#contact">Hire Me</a>
+          <a href="#contact">Let's Talk</a>
+        </div>
+      </div>
+
+      <div class="home-sci">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-twitter' ></i></a>
+        <a href="https://www.linkedin.com/in/shivamdarekar2206"><i class='bx bxl-linkedin' ></i></a>
+      </div>
+
+      <span class="home-imgHover"></span>
+    </section>
+    <!-- Home Section End -->
+
+    <!-- About Section Starts here -->
+    <section class="about" id="about">
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="user.png" alt="">
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat delectus quod facere odit mollitia atque expedita distinctio nulla nisi aut eligendi, vel laborum corrupti placeat nihil blanditiis, eum quisquam voluptas! Ipsa nostrum itaque sapiente enim molestiae eligendi!</p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App interfces</li>
+                    <li><span>Web Development</span><br>Frontend & Backend</li>
+                    <li><span>App Development</span><br>Builing Android/IOS Apps</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2022 - Current </span><br>Tech Developer at Microsoft</li>
+                    <li><span>2020 - 2022</span><br>Web Development Intern at TSF</li>
+                    <li><span>App Development</span><br>Bharat Intern Android app</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>University/Degree</span><br>Mumbai University 2021-2024</li>
+                    <li><span>College</span><br> Pillai's College of Arts, Commerce & Science</li>
+                    <li><span>School</span><br>St.Augustines High School</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Portfolio Section Starts here -->
+    <section class="portfolio" id="portfolio">
+      <div id="portfolio">
+        <div class="contenier">
+            <h1 class="sub-title">A Glance at my Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="musicapp.jpg" >
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>This music app allows user to listen to, discover and organize music on their mobile devices.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="website.jpg" >
+                    <div class="layer">
+                        <h3>E-Commerece Website</h3>
+                        <p> This is a website designed for conducting business transactions online, commonly known as an e-commerce website. It allows businesses to sell products or services to customers over the internet, without the need for a physical storefront.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="chatgpt.jpg" >
+                    <div class="layer">
+                        <h3>AI Chat Bot</h3>
+                        <p>This AI Chat bot is an application that uses artificial intelligence to simulate conversation with users. It is designed to understand natural language input and respond appropriately, providing personalized assistance or information to the user.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></i></a>
+                    </div>
+                    
+                </div>
+              
+            </div>
+            
+            <p class="sub-para">Software development is a complex and rapidly evolving field that involves designing, coding, testing, and maintaining software applications. A software developer's work is to write code that can be used by computers to perform specific tasks or solve particular problems. They must have strong analytical and problem-solving skills, as well as a deep understanding of programming languages, software frameworks, and development tools. Moreover, software developers must also be able to collaborate effectively with other developers, designers, and stakeholders to ensure that their code meets the project's requirements. Overall, a person's work in software development requires a combination of technical expertise, creativity, and strong communication skills.</p>
+        </div>
+    </div>
+    </section>
+    <!-- Portfolio Section End -->
+    
+    <!-- Contact section starts here -->
+    <section class="contact" id="contact">
+      <div id="contact">
+        <div class="contenier">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class='bx bxs-paper-plane' ></i></i>samwilliams24@gmail.com</p>
+                    <p><i class='bx bx-phone' ></i>09246964789</p>
+                    <div class="social-icons">
+                        <a href=""><i class='bx bxl-facebook' ></i></a>
+                        <a href=""><i class='bx bxl-twitter' ></i></a>
+                        <a href=""><i class='bx bxl-instagram' ></i></a>
+                        <a href=""><i class='bx bxl-linkedin' ></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="Email" name="Email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Shivam Darekar | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname){
+          for(tablink of tablinks){
+              tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+              tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  <script>
+      var sidmenu = document.getElementById("sidmenu");
+      function openmenu(){
+          sidmenu.style.right ="0";
+      }
+      function closemenu(){
+          sidmenu.style.right ="-200px";
+      }
+  </script>
+
+  <script>
+    let sections = document.querySelectorAll('section');
+    let navLinks = document.querySelectorAll('header nav a');
+
+    window.onscroll= () => {
+      sections.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 100;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute('id');
+
+        if(top >= offset && top < offset + height) {
+          navLinks.forEach(links => {
+            links.classList.remove('active');
+            document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+          });
+        }
+      });
+    }
+  </script>
+
+</body>
+
+</html>
